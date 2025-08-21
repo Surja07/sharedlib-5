@@ -8,3 +8,11 @@ def sub (a,b)
 {
   echo "The sub of ${a} and ${b} is ${a-b}"
 }
+def mult (a,b)
+{
+  echo "The mutlitpication of ${a} and ${b} is ${a*b}"
+}
+def div (a,b)
+{
+  echo "The divison of ${a} and ${b} is ${a/b}"
+}
