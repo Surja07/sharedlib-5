@@ -10,7 +10,6 @@ def deployment(jobname,ip)
 {
     sh """
 scp /var/lib/jenkins/workspace/sharelib-14${jobname}/HelloWorld.java ubuntu@${ip}:/home/ubuntu/demo6
-
 """
 }
 
